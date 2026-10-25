@@ -1,12 +1,14 @@
-# 📐 Pattern Engineering Exercises
+# 🎮 Console Arcade Games
 
-This folder contains complex C++ programs that render symmetric geometric shapes using nested `for` loops, conditional matrix indexing, and coordinate boundaries.
+This folder contains complete, interactive console-based games built in C++.
 
 ---
 
-## 📌 Included Programs
+## 📌 Included Games
 
-* **`Task6.cpp` — Bordered Hollow Diamond Frame:** Renders a hollow diamond enclosed inside a solid asterisk outer boundary.
-* **`Task7.cpp` — Symmetric Cross-Diamond Pattern:** Renders a diamond outline bisected by central alignment axes.
-* **`Task8.cpp` — Solid Diamond Generator:** Accepts a custom character and row count to print a centered diamond.
-* **`Task9.cpp` — Inverted Split Double-Triangle:** Generates an inverted split-triangle shape with variable spacing.
+### SnakeGame.cpp — Nokia Snake Game
+* **Features:** Custom screen boundary walls, maze obstacles, dynamic food spawning, score display, snake body growth, and real-time collision detection.
+* **Controls:** Arrow Keys.
+
+### GomukoGame.cpp — Five in a Row (Gomoku)
+* **Features:** Dynamic board sizing, 2-player turn execution ('X' and 'O'), real-time coordinate mapping, invalid move handling, horizontal/vertical/diagonal win checking, and draw detection.
